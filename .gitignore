@@ -1,0 +1,14 @@
+## Editors - OS
+.idea
+.DS_Store
+Thumbs.db
+
+## Composer vendor
+vendor/*
+## Keep clean tests dir
+tests/_output/*
+tests/_support/*
+!tests/_support/Helper
+
+## Force files to keep
+!.gitkeep

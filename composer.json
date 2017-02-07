@@ -1,0 +1,19 @@
+{
+  "name": "basic/php",
+  "description": "Php class to manage MB Api Rest",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David Ghyse",
+      "email": "dghyse@ibitux.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "ccds\\api\\" : "src"
+    }
+  },
+  "require-dev" : {
+    "codeception/codeception":"~2.0"
+  }
+}
